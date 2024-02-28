@@ -75,7 +75,7 @@ This is straightforward.
 ### IOMMU
 
 
-# Similar works
+# Related works
 - [[Arxiv'22] Empowering Data Centers for Next Generation Trusted Computing](https://arxiv.org/abs/2211.00306)
 	- The paper design a distributed TEE solution that allows a tenant to securely use TEE nodes (including CPUs and accelerators) and non-TEE legacy nodes.
 		1. Use TEEs on CPUs and DSAs when available. Use such TEEs to protect all the data leaving the corresponding nodes. 
