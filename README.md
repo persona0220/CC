@@ -11,7 +11,7 @@
 	- All required resources such as storage and memory are present in the same physical machine, without considering the *disaggregated* resources presented in data centers.
 - CC doesn't trust any components outside of its TCB, and current TEE ecosystem does not provide a way to build trust among different TEE components or other non-secure computing units.
 - Data inside TEEs, by design, cannot be shared with hardware accelerators such as FPGAs.
-	- Recent works solve this problem: [ACAI](https://arxiv.org/abs/2305.15986) and [CAGE](<file:///Users/sujin/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/Zotero/storage/W7L6JILM/Wang et al. - 2024 - CAGE Complementing Arm CCA with GPU Extensions.pdf>)
+	- Recent works solve this problem: [ACAI](https://arxiv.org/abs/2305.15986) and [CAGE](https://fengweiz.github.io/paper/cage-ndss24.pdf)
 
 ### Attestation
 Attestation is the process of demonstrating that software running in side TEEs on a remote computer is instantiated as expected. By using attestation, a remote party (tenant) can make sure that the application is running inside an authentic TEE, and it has not been tampered with. It's also the common way to establish trust between two TEEs.
